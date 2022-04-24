@@ -1,0 +1,27 @@
+<div id="all_apps">
+					<div id="chrome" class="app" ><img onclick="open_app('chrome','google_search')" src="png/001-chrome.png" class="logo_app">
+
+						Chrome</div>
+					<div id="youtube"  class="app"><img onclick="open_app('chrome','Youtube Search')" src="png/youtube.png"  class="logo_app">Youtube</div>
+
+					<div id="google-maps" onclick="open_app('chrome','google-maps')" class="app"><img src="png/google-maps.png"  class="logo_app" >Maps</div>
+					
+					<div id="settings"  onclick="open_app('chrome','settings')" class="app"><img src="png/settings.png"  class="logo_app">Settings</div>
+					
+					<div id="whatsApp" onclick="open_app('chrome','whatsApp')" class="app"><img src="png/002-whatsapp.png"  class="logo_app" >WhatsApp</div>
+
+					<div id="calendar" onclick="open_app('chrome','Calendar')"  class="app"><img src="png/003-calendar.png"  class="logo_app">Calendar</div>
+
+					<div id="clock" onclick="open_app('chrome','Clocl')" class="app"><img src="png/004-clock.png" class="logo_app">Clock</div>
+					
+					<div id="gmail" onclick="open_app('chrome','gmail')" class="app"><img src="png/005-gmail.png" onclick="open_app('chrome','gmail')"  class="logo_app">Gmail</div>
+
+					<div id="phone" onclick="open_app('chrome','Call')" class="app"><img src="png/006-phone-call.png"  class="logo_app">Call</div>
+					
+					<div id="sms" class="app"><img src="png/007-mail.png"  class="logo_app">SMS</div>
+					
+				</div>
+		
+
+				
+			</div>

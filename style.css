@@ -1,0 +1,989 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100vw;
+	height: 100vh;
+	overflow-x: hidden;
+}
+
+.feature{
+	padding-left: 2%;
+    background: #fed3c7;
+    padding-right: 2%;
+    border: 1px solid #fb654c;
+    border-radius: 0.25rem;
+
+}
+
+.feature-text{
+	line-height: 2em;
+	font-size: 18px;
+}
+.fi .fi-rr-arrow-right{
+	height: 16px;
+}
+.logo{
+	margin: 0 0.5rem;
+	width: 35%;
+}
+.home-img{
+	width: 65%!important;
+}
+.fi-rr-paper-plane,.fi-rr-comment,.fi-rr-e-learning{
+	    color: #ff5c44;
+    font-size: 1.25rem;
+    margin-right: 0.25em;
+}
+.services{
+	background-color: #fed3c7;
+	box-sizing: border-box;
+	    position: relative;
+    top: -5%;
+}
+.btn-success{
+	background-color: #52bd3d;
+}
+
+.fi{
+	margin-right: 0.25em;
+
+}
+
+.chapter_li{
+	list-style-image: url('Images/book-alt.png');
+	cursor: pointer;
+}
+.accordion-button:not(.collapsed){
+	background-color: #fff2e4;;
+	color: black;
+
+}
+.chpt_links{
+	color: #4baa61;
+    text-decoration: underline;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #fed3c7;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #fed3c7;
+}
+.steps_li{
+	/*list-style-image: url('Images/check.png');*/
+	list-style: disc;
+    text-align: justify;
+
+}
+
+
+
+h5{
+	margin-bottom: 0;
+}
+/* simulation */
+
+#virtual_simulation{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#mobile_device{
+	width: 30%;
+    height: 90vh;
+    border: 10px solid black;
+    position: relative;
+
+}
+#mainframe{
+	width: 100%;
+	height: 100%;
+}
+#frontcam{
+	position: relative;
+    width: 100%;
+    height: 5%;
+    background-color: black;
+    
+}
+#volume_buttons{
+	    position: absolute;
+    left: -4%;
+    height: 10%;
+    top: 25%;
+    width: 4%;
+    transform: translate(-60%, -12.5%);
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.volume_b{
+	position: relative;
+	height: 45%;
+	width: 100%;
+	border-radius: 12%;
+	background-color: #2c2828;
+}
+#power_buttons{
+	position: absolute;
+    right: -4%;
+    height: 10%;
+    top: 25%;
+    width: 4%;
+    transform: translate(60%, -12.5%);
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.pow_b{
+	position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 12%;
+    background-color: #2c2828;
+
+}
+#mobile_device_buttons{
+	height: 10%;
+	width: 100%;
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 10% 0;
+}
+#network_battery{
+	height: 4%;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 1%;
+    color: white;
+    background: black;
+
+}
+#app{
+	height: 81%;
+	overflow-x: hidden;
+    position: relative;
+}
+.fi{
+	margin-right: 20px;
+	font-size: 16px;
+}
+.nb{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.mdb{
+	color: white;
+}
+
+#all_apps{
+	    width: 100%;
+    background-image: url(png/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+.app{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 12px;
+	font-weight: 800;
+}
+.logo_app{
+	background-color: white;
+    border-radius: 25%;
+    padding: 5%;
+    margin-bottom: 2%;
+}
+
+#youtube_bar{
+	height: 8%;
+	width: 100%;
+}
+#youtube_mainframe{
+	height: 92%;
+}
+#youtube_logo{
+	float: left;
+	margin-left: 2%;
+}
+#youtube_menu{
+	    display: flex;
+    float: right;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+}
+.youtube_video{
+	width: 100%;
+}
+.yt_video_img{
+	width: 100%;
+	height: 20%;
+}
+.yt_video_info{
+	font-size: 10px;
+	color: grey;
+	display: flex;
+    align-items: center;
+}
+.yt_video_info span{
+	margin-right: 2%;
+}
+.yt_video_title{
+	font-size: 16px;
+}
+#youtube{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.yt_video_details{
+	display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+.yt_user_logo{
+	float: left;
+	margin-right: 1%;
+
+}
+
+.simple-keyboard {
+    position: absolute!important;
+    bottom: 0%!important;
+    display: none;
+    }
+
+
+#input_ {
+    width: 80%!important;
+    height: 10%!important;
+    padding: 1%!important;
+    float: right;
+    font-size: 16px;
+    border: none;
+    display: none;
+    box-sizing: border-box;
+}
+
+#youtube_search_menu{
+	display: none;
+	align-items: center;
+}
+#youtube_home_menu{
+	float: right;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+}
+#youtube_search_menu{
+	float: right;
+    display: none;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #858484;
+    border-radius: 25px;
+    margin-top: 1%;
+}
+
+#youtube_search{
+	align-items: center;
+    border: none;
+    border-radius: 12px;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    text-align: center;
+   text-align: center;
+}
+
+
+#alert {
+    width: 100%;
+    padding: 1%;
+    background-color: #b9e0eb;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10%;
+    border-radius: 12.5px;
+}
+
+
+#gmail_screen_10{
+	background-repeat: no-repeat;
+    padding: 0px;
+    background-image: url(png/email_tenth_window.png);
+    display: block;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+	
+#gmail_screen_1,
+#gmail_screen_2,
+#gmail_screen_3,
+#gmail_screen_4,
+#gmail_screen_5,
+#gmail_screen_6,
+#gmail_screen_7,
+#gmail_screen_8,
+#gmail_screen_9,
+#gmail_screen_10 {
+    display: none;
+    padding: 10% 3% 0% 3%;
+}
+.img_list_email{
+    width: 20px;
+    margin: 2%;
+}
+.list_element_email{
+    padding: 5% 0;
+    font-weight: bold;
+}
+.list_email{
+    padding: 5% 0;
+    align-items: center;
+}
+#img_gmail_google_logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+#center{
+    text-align: center;
+    padding-bottom: 5%;
+}
+.gmail_input{
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 3% 2%;
+    width: 100%;
+}
+label{
+	font-size: 14px;
+}
+hr {
+    margin: 0.5em 0;
+    }
+#center *{
+    padding: 2% 0;
+}
+.gmail_footer{
+	margin-top: 4%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gmail_footer button{
+    background-color: #196ddc;
+    border-radius: 5px;
+    padding: 2% 5%;
+    border: none;
+    outline: none;
+    color: white;
+}
+#live_steps{
+	width: 25%;
+    margin-right: 2%;
+}
+.space1{
+    padding: 65% 0 0 0;
+}
+.space2{
+    padding: 1%;
+}
+.select_account_type{
+    cursor: pointer;
+    display: none;
+    padding: 2%;
+    width: 60%;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 2px;
+    box-shadow: 1px 2px 3px grey, -2px -1px 3px grey;
+}
+.select_account_type div{
+    padding: 3% 0;
+    font-size: 14px;
+}
+.forgot_mail{
+    cursor: pointer;
+    color: #196ddc;
+    font-size: 14px;
+    padding-top: 3%;
+    font-weight: bold
+}
+#ownMail{
+    display: none;
+}
+.new_mail{
+    border: 1px solid grey;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 3% 1% 1%;
+}
+.new_mail input{
+    width: 115%;
+    border: none;
+    outline: none;
+}
+#whatsappScreen1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#whatsappScreen2,
+#whatsappScreen3,
+#whatsappScreen4,
+#whatsappScreen5{
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.whatsapp_userheader{
+    color: white;
+    height: 10%;
+    background-color: #008069;
+}
+.whatsapp_userheader_options i{
+    margin-right: 0.5em;
+   
+}
+.whatsapp_userheader_options {
+    width: 30%;
+   
+}
+
+.whatsapp_userheader_back i{
+    margin-right: 0.5em;
+    
+}
+#videocall_buttons i{
+    color: white;
+}
+#videocall_buttons .fa-phone:before {
+    content: "\f095";
+    font-size: 10px;
+}
+#videocall_buttons{
+    height: 11%;
+        padding: 5.5% 0 0 0;
+        width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #008069;
+}
+#whatsapp_cam{
+        position: absolute;
+    height: 100%;
+    width: auto;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+.whatsapp_userheader_back{
+    width: 10%;
+}
+.whatsapp_userheader_info{
+    width: 60%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+#whatsapp_screen_2,
+#whatsapp_screen_3,
+#whatsapp_screen_4,
+#whatsapp_screen_5{
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.whatsapp_header{
+    height: 12%;
+    background-image: url("png/wa_header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.container table{
+  width: 100%;
+  padding: 1%;
+  font-size: 14px;
+}
+
+.container_win{
+	height: 88%;
+}
+.container_whatsapp{
+    width: 100%;
+    padding:1% 2%;
+
+}
+.container_whatsapp table{
+    margin-right: 0;
+        margin-right: 0;
+    width: 100%;
+    overflow-y: hidden;
+}
+
+#whatsappScreen2 .whatsapp_chat {
+    height: 90%;
+}
+#settings_table th{
+    width: 20%;
+    text-align: left;
+    padding: 1.5% 1%;
+}
+/*
+th img{
+    width: 100%;
+}
+*/
+.whatsapp_user_header{
+    height: 7%;
+    background-image: url("png/wa_user.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.whatsapp_chat{
+    height: 90%;
+    position: relative;
+    background-image: url("png/crop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wa_search_icons{
+    width: 90%;
+    padding: 5%;
+}
+.wa_msg{
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 3% 1% 1%;
+}
+#wa_input{
+    background-color: white;
+    border-radius: 50px;
+    border-color: transparent;
+    outline: none;
+}
+.whatsapp_chat table{
+    font-size: 12px;
+    background-color: white;
+    padding: 5%;
+    border-radius: 5px;
+    width: 100%;
+    position: absolute;
+    bottom: 10%;
+}
+.whatsapp_chat table td p{
+	font-size: 14px;
+}
+.whatsapp_chat table td{
+    padding: 4%;
+    display: inline-flex;
+    width: 33.33%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#options{
+    display: none;
+}
+#whatsapp_screen_1 
+{
+	position: relative;
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    }
+#whatsapp_screen_3{
+    overflow-y: hidden;
+    height: 100%;
+    background-color: #2fdecc;
+}
+#gallery{
+    padding: 8% 0;
+    width: 100%;
+    height: 100%;
+
+}
+#gallery th{
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: black;
+    padding: 2%;
+    text-align: center;
+    border-collapse: collapse;
+}
+#send_img{
+    height: 65vh;
+    background-image: url("png/send_img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#whatsapp_screen_4{
+    height: 100%;
+    background-color: black;
+}
+.final{
+    height: 90%;
+    background-image: url("png/wa_final.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.google_header{
+    padding: 2% 2% 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#google_header_logo{
+    width: 50%;
+    padding: 5%;
+}
+#google_logo_img{
+    padding: 20% 10% 0%;
+    width: 100%;
+}
+.google-search{
+    background-color: #e9e5e5;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 3% 1% 1%;
+}
+#google_search_input{
+    background-color: #e9e5e5;
+    padding: 2% 5%;
+    border-radius: 50px;
+    border-color: transparent;
+    width: 100%;
+    outline: none;
+}
+.google_search_icons{
+    width: 50%;
+    padding: 5%;
+}
+#google_logo_img_second{
+    width: 100%;
+    padding: 5% 32%;
+}
+#second_window_topnav{
+    padding: 2%;
+    box-shadow: 1px 1px 3px #aaaaaa;
+}
+#second_main{
+    box-shadow: 1px 1px 3px #aaaaaa;
+    background-color: white;
+    margin: 0% 2%;
+}
+.top_nav_lock{
+    width: 80%;
+    padding: 5%;
+}
+#google_main_input{
+    outline: none;
+    color: black;
+    background-color:transparent;
+    border-color: transparent;
+}
+#google_main_input::placeholder{
+    color: black
+}
+#google_mic{
+    width: 90%;
+    padding: 5%
+}
+#google_nav_input{
+    background-color: #dbdbdb;
+    border-color: transparent;
+    outline: none;
+    color: black;
+}
+#google_nav_input::placeholder{
+    color: black;
+}
+#scroll{
+    overflow-x: scroll;
+}
+#scroll::-webkit-scrollbar{
+    display: none;
+}
+#scroll div{
+    padding: 2%;
+    font-size: 12px;
+    cursor: pointer;
+}
+#main_search_result{
+    height: 50vh;
+    background-image: url("png/google_search_all.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#google_second_window{
+    display: none;
+}
+#register_form{
+    display: none;
+}
+.page_link{
+    color: white;
+    text-decoration: none;
+}
+.page_link:hover,.page_link:active{
+    color: white;
+    text-decoration: none;
+}
+
+#settings_screen_1{
+    padding: 5% 2% 0 2%;
+    background-color: #f2f2f2;
+}
+.settings_img{
+    border-radius: 0.75em;
+    width: 85%;
+}
+
+#display{
+    height: 72vh;
+    background-image: url("png/settings/bright.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 17% 0% 0%;
+}
+#brightness-range {
+  width: 90%;
+  outline: none;
+  cursor: pointer;    
+}
+
+#settings_table tr{
+    background-color: white;
+    border-bottom: 2px solid #f2f2f2;
+}
+#data_top{
+    height: 24vh;
+    background-image: url("png/settings/data_top.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#data_bottom{
+    height: 35vh;
+    background-image: url("png/settings/data_bottom.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.switch {
+    text-align: right;
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+
+#mobData{ 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#mobData:checked + .slider {
+  background-color: #2196F3;
+}
+
+#mobData:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+#mobData:checked + .slider:before {
+  -webkit-transform: translateX(16px);
+  -ms-transform: translateX(16px);
+  transform: translateX(16px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+#notifications{
+    position: absolute;
+    background-color: #ccc;
+    width: 96%;
+    border-radius: 50px;
+    margin: 2%;
+    bottom: 100%;
+    overflow: hidden;
+    transition: .5s ease;
+    height: 0;
+}
+#settings_screen_1{
+    height: 100%;
+}
+
+#settings_screen_2,
+#settings_screen_3{
+    display: none;
+}
+#settings_screen_3{
+    position: relative;
+}
+
+#back_button{
+    position: absolute;
+    margin: 2% 2%;
+    font-size: 30px;
+    background-color: #eee;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1;
+    display: flex;
+}
+.container_settings{
+    height: 100%;
+}
+
+#back_button{
+    position: absolute;
+    margin: 2% 2%;
+    font-size: 30px;
+    background-color: #eee;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#power_output{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-weight: bolder;
+    background-color: rgba(0,0,0,0.5);
+    transition: 0.5 ease;
+    opacity: 0;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#power_output.show{
+    opacity: 1;
+}
+
+#power_output div{
+    padding: 5%;
+}
+
+
+#volume_output{
+    position: absolute;
+    width: 0%;
+    padding: 0%;
+    padding: 5% 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    transition: .5s ease;
+}
+
+#volume_output table tr{
+    background-color: grey;
+}
+#volume_output table tr{
+    height: 2vh;
+}

@@ -1,0 +1,21 @@
+[
+	{
+		"id":"Gmail Account Create",
+		"steps":[
+			"Click on Gmail app",
+			"Click on Google account",
+			"Click on 'Create account' and click on 'For myself'",
+			"Type Jaku as your First Name and leave the surname as option click on Next",
+			"Enter your birthdate and selet your gender then click Next",
+			"You can select from the options given or \n create your own gmail address \n Select on First option and click Next",
+			"Type in strong password Eg: jaku@12345 \n for now Type 'jaku'",
+
+			"Type dumy phone number.",
+			"Click on next button",
+			"Read Terms and Conditions and click on Next button.",
+			"Congratulations!!! You just learnt how to create a Gmail account!!"
+		],
+		"err":"Err! "
+
+	}
+]

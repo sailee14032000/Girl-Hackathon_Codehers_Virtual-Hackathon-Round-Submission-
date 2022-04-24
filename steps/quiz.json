@@ -1,0 +1,73 @@
+{
+	"quiz_chpt":[
+		{
+			"id":"Password safety and protection",
+			"queset":[
+				{
+					"que":"Which of the following three is the strongest password?",
+					"A":"starwars",
+					"B":"1qaz2wsx",
+					"C":"trEEGCv-",
+					"ans":"c",
+					"explanation":"The correct answer is option C. This is a random password and thus the most secure one of the 3. starwars is not random and a commonly used password. 1qaz2wsx seems random but it's the first 2 columns of a qwerty keyboard and also commonly used. Attackers use these in wordlists to crack passwords or to gain access to existing sites for which you use this password."
+				},
+				{
+					"que":"Which of the following is a weak password?",
+					"A":"123456",
+					"B":"P@ssw0rd",
+					"C":"All of the above",
+					"ans":"c",
+					"explanation":"The correct answer is option C. All of the passwords are weak and already leaked in data breaches."
+				},
+				{
+					"que":"How often should I change a password?",
+					"A":"Never",
+					"B":"Every week",
+					"C":"Only when there's proof or suspicion of compromise",
+					"ans":"c",
+					"explanation":"The best practices are to only change your password when there's proof or suspicion that your account might be hacked."
+				},
+				{
+					"que":"What are the characteristics of a strong password?",
+					"A":"Long",
+					"B":"Long Random Unique",
+					"C":"Unique",
+					"ans":"b",
+					"explanation":"Passwords should be long enough, minimum 12 or 14 characters is recommended. Passwords should also be random because attackers will have giant lists of predictable passwords they can use to crack passwords or gain access to your online accounts. They should also be unique. If you reuse passwords across different sites a hack of one website can result in attackers using this stolen username and password to gain access to your accounts for another website."
+				}
+
+			]
+
+		},
+		{
+			"id":"Email safety",
+			"queset":[
+				{
+					"que":"You receive an email with subject: '$5 million donation from Bill Gates' and in the email they ask you to provide your telephone number and full postal address to claim the money. What's the best action?",
+					"A":"Reply with phone number and address",
+					"B":"Report the email as spam and delete it",
+					"C":"Forward the email to friends.",
+					"ans":"b",
+					"explanation":"The correct answer is b. If something is too good to be true it just isn't true. No one will email you out of the blue to give you such an amount of money."
+									},
+				{
+					"que":"You receive an email from 'hajhsyye@sound.ocn.ne.jp' that urges you to reset your Hyundai password. What should you do?",
+					"A":"Change my password immediately as per the instructions given in the email",
+					"B":"Don't proceed and delete the email",
+					"C":"None of the above",
+					"ans":"b",
+					"explanation":"The correct answer is option B.If Hyundai would ask you to reset your password the mail would come from an official Hyundai.com email address. This is a malicious email to steal your Hyundai password."		},
+				{
+					"que":"If you receive a suspicious email, should you?",
+					"A":"Report it to the phishing reporting mailbox of your government",
+					"B":"Reply to it",
+					"C":"Open the attachments",
+					"ans":"a",
+					"explanation":"Report the phishing mail and delete it afterwards. In any case don't reply, click on any links or open attachments in the email."
+				}
+
+			]
+
+		}
+	]
+}

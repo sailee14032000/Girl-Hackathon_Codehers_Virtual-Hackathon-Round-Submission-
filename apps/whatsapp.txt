@@ -1,0 +1,153 @@
+<div id="whatsapp_screen_1">
+	<div class="whatsapp_header">
+
+	</div>
+
+	<div class="container_whatsapp">
+		<table>
+		  <tr onclick="whatsapp_window(2)">
+		    <th><img src="png/man.png"></th>
+		    <td><b>Ramesh</b><p style="font-size: 13px">Something...</p></td>
+		    <td style="font-size: 10px; text-align: right;">22/04/2022<p>.</p></td>
+		  </tr>
+		  <tr>
+		    <th><img src="png/woman.png"></th>
+		    <td><b>Name1</b><p style="font-size: 13px">Something...</p></td>
+		    <td style="font-size: 10px; text-align: right;">22/04/2022<p>.</p></td>
+		  </tr>
+		  <tr>
+		    <th><img src="png/man.png"></th>
+		    <td><b>Name2</b><p style="font-size: 13px">Something...</p></td>
+		    <td style="font-size: 10px; text-align: right;">22/04/2022<p>.</p></td>
+		  </tr>
+		  <tr>
+		    <th><img src="png/woman.png"></th>
+		    <td><b>Name3</b><p style="font-size: 13px">Something...</p></td>
+		    <td style="font-size: 10px; text-align: right;">22/04/2022<p>.</p></td>
+		  </tr>
+		  <tr>
+		    <th><img src="png/man.png"></th>
+		    <td><b>Name4</b><p style="font-size: 13px">Something...</p></td>
+		    <td style="font-size: 10px; text-align: right;">22/04/2022<p>.</p></td>
+		  </tr>
+		  <tr>
+		    <th><img src="png/woman.png"></th>
+		    <td><b>Name5</b><p style="font-size: 13px">Something...</p></td>
+		    <td style="font-size: 10px; text-align: right;">22/04/2022<p>.</p></td>
+		  </tr>
+		  
+		</table>
+	</div>
+</div>
+
+<div id="whatsapp_screen_2">
+	<div class="whatsapp_userheader d-flex align-items-center">
+		<div class="whatsapp_userheader_back d-flex align-items-center justify-content-center">
+			<i class="fi fi-rr-arrow-small-left"></i>
+
+		</div>
+		<div class="whatsapp_userheader_info">
+			<img src="png/man.png" style="width: 20%;
+    position: relative;
+    margin-right: 0.5em;" />
+
+			<div>Ramesh<p style="margin-bottom:0;font-size:12px;">Online</p></div>
+		</div>
+		<div class="whatsapp_userheader_options d-flex align-items-center justify-content-end">
+			<i onclick="openChat(3)" class="fi fi-rr-video-camera"></i>
+			<i class="fi fi-rr-phone-call"></i>
+			<i class="fi fi-rr-menu-dots-vertical"></i>
+		</div>
+	</div>
+	<div class="whatsapp_chat">
+		<div id="options">
+			<table>
+				<tr>
+					<td><img src="png/documents.png"><p>Document</p></td>
+					<td><img src="png/photo-camera.png"><p>Camera</p></td>
+					<td onclick="whatsapp_window(3)"><img src="png/gallery.png"><p>Gallery</p></td>
+				</tr>
+				<tr>
+					<td><img src="png/audio-headset.png"><p>Audio</p></td>
+					<td><img src="png/money.png"><p>Payment</p></td>
+					<td><img src="png/location.png"><p>Lation</p></td>
+				</tr>
+				<tr>
+					<td><img src="png/user.png"><p>Contact</p></td>
+				</tr>
+			</table>
+		</div>
+		<div class="wa_msg">
+			<div style="padding: 2% 0 2% 3%"><i class="fa fa-smile-o" aria-hidden="true"></i></div>
+			<div><input type="text" name="" id="wa_input" placeholder="Message" onclick="open_searchbar()"></div>
+			<div><img src="png/attached.png" class="wa_search_icons" onclick="open_option()">
+
+			<!--<img src="png/google_mic.png" class="wa_search_icons"><img src="png/google_photo-camera.png" class="wa_search_icons">
+
+			--></div>
+		</div>
+	</div>
+</div>
+
+<div id="whatsapp_screen_3">
+	<h5>Gallery</h5>
+	<table id="gallery">
+		<tr>
+			<th onclick="whatsapp_window(4)"><img src="png/man.png"></th>
+			<th onclick="whatsapp_window(4)"><img src="png/man.png"></th>
+		</tr>
+		<tr>
+			<th onclick="whatsapp_window(4)"><img src="png/man.png"></th>
+			<th onclick="whatsapp_window(4)"><img src="png/man.png"></th>
+		</tr>
+		<tr>
+			<th onclick="whatsapp_window(4)"><img src="png/man.png"></th>
+			<th onclick="whatsapp_window(4)"><img src="png/man.png"></th>
+		</tr>
+		<tr>
+			<th onclick="whatsapp_window(4)"><img src="png/man.png"></th>
+			<th onclick="whatsapp_window(4)"><img src="png/man.png"></th>
+		</tr>
+	</table>
+</div>
+
+<div id="whatsapp_screen_4">
+	<div id="send_img"></div>
+	<div class="wa_msg" style="width: 100%;margin: 0  ">
+		<div><input type="text" name="" id="wa_input" placeholder="Add a caption..." style="padding-left: 10%;"></div>
+		<div onclick="whatsapp_window(5)"><img src="png/send.png"></div>
+	</div>
+</div>
+
+<div id="whatsapp_screen_5">
+	<div class="whatsapp_userheader d-flex align-items-center">
+		<div class="whatsapp_userheader_back d-flex align-items-center justify-content-center">
+			<i class="fi fi-rr-arrow-small-left"></i>
+
+		</div>
+		<div class="whatsapp_userheader_info">
+			<img src="png/man.png" style="width: 20%;
+    position: relative;
+    margin-right: 0.5em;" />
+
+			<div>Ramesh<p style="margin-bottom:0;font-size:12px;">Online</p></div>
+		</div>
+		<div class="whatsapp_userheader_options d-flex align-items-center justify-content-end">
+			<i onclick="openChat(3)" class="fi fi-rr-video-camera"></i>
+			<i class="fi fi-rr-phone-call"></i>
+			<i class="fi fi-rr-menu-dots-vertical"></i>
+		</div>
+	</div><div class="final">
+		<div class="wa_msg" style="margin: 0">
+			<div style="padding: 2% 0 2% 3%"><i class="fa fa-smile-o" aria-hidden="true"></i></div>
+			<div><input type="text" name="" id="wa_input" placeholder="Message" onclick="open_searchbar()"></div>
+			<div>
+
+			<img src="png/attached.png" class="wa_search_icons" onclick="open_option()">
+			<!--<img src="png/google_mic.png" class="wa_search_icons"><img src="png/google_photo-camera.png" class="wa_search_icons">
+
+			-->
+			</div>
+		</div>
+	</div>
+</div>

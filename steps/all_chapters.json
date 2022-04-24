@@ -1,0 +1,602 @@
+{
+	"chapters":[
+
+		{
+			"id":"Youtube Search",
+			"img":"Images/youtube_chpt.png",
+			"info":"YouTube provides a simple way for people to store videos online and share them with others. YouTube videos cover any topic anyone cares to upload a video about. These videos are easy to share via other forms of social media, email and websites and can also be embedded in other websites.YouTube is used to watch music videos, comedy shows, how to guides, recipes, hacks and more. Teens also use the video-sharing service to follow their favourite vloggers (video blogger), subscribe to other YouTubers and celebrities they are interested in.",
+
+			"ques":[
+				{
+					"que":"What is Youtube?",
+					"answer":"YouTube is a free video sharing website that makes it easy to watch online videos. You can even create and upload your own videos to share with others."
+					
+				},
+				{
+					"que":"",
+					"answer":""
+					
+
+				}
+
+			],
+			"video_links":[
+				{
+					"link":"https://www.youtube.com/embed/gTrLniP5tSQ"
+
+				},
+				{
+
+					"link":""
+
+				}
+
+			],
+
+			"steps":[
+				{
+					"id":1,
+					"step":"Click on Youtube App."
+
+				},
+				{
+					"id":2,
+					"step":"Click on search button"
+
+				},
+				{
+					"id":3,
+					"step":"Enter keywords"
+				},
+				{
+					"id":4,
+					"step":"click enter"
+				},
+				{
+					"id":5,
+					"step":"Congratulations!! You just learnt how to do youtube search."
+				}
+
+			]
+
+		},
+
+		{
+			"id":"Google Search",
+			"img":"Images/google_search.png",
+			"info":"Search engines are programs that make it easy for people to search the internet for a relevant web page. The three main functions of a search engine are collecting information about webpages, categorizing those webpages, and creating an algorithm that makes it easy for people to find relevant web pages.The main purpose of Google Search is to search for text in publicly accessible documents offered by web servers, as opposed to other data, such as images or data contained in databases.",
+
+			"ques":[
+				{
+					"que":"What is Google Search ?",
+					"answer":"To find the desired website on Google we perform a Google Search."
+					
+				},
+				{
+					"que":"Can we do a voice search on Google ?",
+					"answer":" Yes, a voice search is possible on Google."
+					
+
+				}
+
+			],
+			"video_links":[
+				{
+					"link":"https://www.youtube.com/embed/f_Y386Thr04"
+
+				},
+				{
+
+					"link":"https://www.youtube.com/embed/UiEBoH3qesk"
+
+				}
+
+			],
+
+			"steps":[
+				{
+					"id":1,
+					"step":"Click on Google App."
+
+				},
+				{
+					"id":2,
+					"step":"Click on search button"
+
+				},
+				{
+					"id":3,
+					"step":"Enter keywords"
+				},
+				{
+					"id":4,
+					"step":"Click enter"
+				},
+				{
+					"id":5,
+					"step":"Congratulations!! You just learnt how to do Google Search."
+				}
+
+			]
+		},
+		{
+			"id":"Google Image Search",
+			"img":"Images/google_search.jpg",
+			"info":"Search engines are programs that make it easy for people to search the internet for a relevant web page. The three main functions of a search engine are collecting information about webpages, categorizing those webpages, and creating an algorithm that makes it easy for people to find relevant web pages.The main purpose of Google Search is to search for text in publicly accessible documents offered by web servers, as opposed to other data, such as images or data contained in databases.",
+
+			"ques":[
+				{
+					"que":"What is Google Image Search ?",
+					"answer":"Finding images on Google is Google Image Search."
+					
+				},
+				{
+					"que":"Can we save the images from Google Image Search ?",
+					"answer":" Yes, saveing the images is possible from Google Search."
+					
+
+				}
+
+			],
+			"video_links":[
+				{
+					"link":"https://www.youtube.com/embed/gt_UXFADgcs"
+
+				},
+				{
+
+					"link":"https://www.youtube.com/embed/VnX_FqMlkZo"
+
+				}
+			
+			],
+			"steps":[
+				{
+					"id":1,
+					"step":"Click on Google App."
+
+				},
+				{
+					"id":2,
+					"step":"Click on camera button"
+
+				},
+				{
+					"id":3,
+					"step":"Click a picture you wish a search"
+				},
+				{
+					"id":4,
+					"step":"Click on camera button to start the search"
+				},
+				{
+					"id":5,
+					"step":"Congratulations!! You just learnt how to do Google Image Search."
+				}
+
+			]
+		},
+		{
+			"id":"Gmail",
+			"img":"Images/gmail.png",
+			"info":"Gmail is a free Web-based e-mail service that provides users with a gigabyte of storage for messages and provides the ability to search for specific messages. The Gmail program also automatically organizes successively related messages into a conversational thread.",
+
+			"ques":[
+				{
+					"que":"What is an Email?",
+					"answer":"Electronic mail (email or e-mail) is a method of exchanging messages between people using electronic devices."
+					
+				},
+				{
+					"que":"Any prerequisite to send a mail ?",
+					"answer":" Yes, a prerequisite to sending a mail is making an email account."
+					
+
+				}
+
+			],
+			"video_links":[
+				{
+					"link":"https://www.youtube.com/embed/2eH0JbEE-6k"
+
+				},
+				{
+
+					"link":"https://www.youtube.com/embed/i_Mqd5S0GdI"
+
+				}
+			
+			],
+			"steps":[
+				{
+					"id":1,
+					"step":"Click on Gmail App."
+
+				},
+				{
+					"id":2,
+					"step":"Click on the plus sign on the left"
+
+				},
+				{
+					"id":3,
+					"step":"A box pops up, in the to section enter the email address to which you need to send the mail"
+				},
+				{
+					"id":4,
+					"step":"In the subject tab enter the subject of the mail and then write the mail content of the mail and click on send"
+				},
+				{
+					"id":5,
+					"step":"Congratulations!! You just learnt how to do send an email."
+				}
+
+			]
+		
+		},
+		{
+			"id":"WhatsApp",
+			"img":"Images/WhatsApp.png",
+			"info":"WhatsApp is a free app for iPhones, Android smartphones, Macs and Windows PCs. It allows you to send messages, pictures, videos and even voice recordings, and to make voice and video calls over the internet for free, rather than paying to do the same using your mobile network.",
+
+			"ques":[
+				{
+					"que":"What is an Whatsapp?",
+					"answer":"Electronic mail (email or e-mail) is a method of exchanging messages between people using electronic devices."
+					
+				},
+				{
+					"que":"Any prerequisite to send a message on Whatsapp ?",
+					"answer":" Yes, a prerequisite to sending a message through whatsapp is installation of whatsapp in our phones."
+					
+
+				}
+
+			],
+			"video_links":[
+				{
+					"link":"https://www.youtube.com/embed/wWFFYQWPXPQ"
+
+				},
+				{
+
+					"link":"https://www.youtube.com/embed/9YtiN4QyYDo"
+
+				}
+			
+			],
+			"steps":[
+				{
+					"id":1,
+					"step":"Click on Whatsapp App icon."
+
+				},
+				{
+					"id":2,
+					"step":"Select the contact from the contacts to send the message"
+
+				},
+				{
+					"id":3,
+					"step":"Type the message in the message box"
+				},
+				{
+					"id":4,
+					"step":"Click on the send button to send the message"
+				},
+				{
+					"id":5,
+					"step":"Congratulations!! You just learnt how to do send an email."
+				}
+
+			]
+		
+		
+		},
+
+
+		{
+			"id":"Password safety and protection",
+			"img":"Images/password_protect.png",
+			"info":"Passwords are important. They help your personal accounts stay private and secure but, if you’re guilty of reusing, rotating, or using notoriously easy passwords, you are leaving yourself open to an account breach. Therefore, you should know what makes a strong password so that you can ensure the maximum security for your sensitive information.",
+
+			"ques":[
+				{
+					"que":"What is Google Search ?",
+					"answer":"To find the desired website on Google we perform a Google Search."
+					
+				},
+				{
+					"que":"Can we do a voice search on Google ?",
+					"answer":" Yes, a voice search is possible on Google."
+					
+
+				}
+
+			],
+			"video_links":[
+				{
+					"link":"https://www.youtube.com/embed/FdmRgaNn2p0"
+
+				},
+				{
+
+					"link":"https://www.youtube.com/embed/WsJAGb6bQ6E"
+
+				}
+
+			],
+
+			"steps":[
+				{
+					"id":1,
+					"step":"A password should be 16 characters or more; our password-related research has found that 45 percent of Americans use passwords of eight characters or less, which are not as secure as longer passwords."
+
+				},
+				{
+					"id":2,
+					"step":"A password should include a combination of letters, numbers, and characters."
+
+				},
+				{
+					"id":3,
+					"step":"A password shouldn’t be shared with any other account."
+				},
+				{
+					"id":4,
+					"step":"A password shouldn’t contain any consecutive letters or numbers."
+				},
+				{
+					"id":5,
+					"step":"A password shouldn’t be the word “password” or the same letter or number repeated.."
+				}
+
+			]
+		},
+
+		{
+			"id":"Email safety",
+			"img":"Images/phishing.png",
+			"info":"Email security can be defined as the use of various techniques to secure sensitive information in email communication and accounts against unauthorized access, loss, or compromise. In simpler terms, email security allows an individual or organization to protect the overall access to one or more email addresses or accounts.",
+
+			"ques":[
+				{
+					"que":"What is Google Search ?",
+					"answer":"To find the desired website on Google we perform a Google Search."
+					
+				},
+				{
+					"que":"Can we do a voice search on Google ?",
+					"answer":" Yes, a voice search is possible on Google."
+					
+
+				}
+
+			],
+			"video_links":[
+				{
+					"link":"https://www.youtube.com/embed/NJxJYBAjkJU"
+
+				},
+				{
+
+					"link":"https://www.youtube.com/embed/i_u0Si86NsU"
+
+				}
+
+			],
+
+			"steps":[
+				{
+					"id":1,
+					"step":"Backup critical files"
+
+				},
+				{
+					"id":2,
+					"step":"Protect email accounts with sender authentication"
+
+				},
+				{
+					"id":3,
+					"step":"Report spam emails"
+				}
+
+			]
+		},
+		{
+			"id":"SMS security",
+			"img":"Images/phishing.png",
+			"info":"Email security can be defined as the use of various techniques to secure sensitive information in email communication and accounts against unauthorized access, loss, or compromise. In simpler terms, email security allows an individual or organization to protect the overall access to one or more email addresses or accounts.",
+
+			"ques":[
+				{
+					"que":"What is Google Search ?",
+					"answer":"To find the desired website on Google we perform a Google Search."
+					
+				},
+				{
+					"que":"Can we do a voice search on Google ?",
+					"answer":" Yes, a voice search is possible on Google."
+					
+
+				}
+
+			],
+			"video_links":[
+				{
+					"link":"https://www.youtube.com/embed/NJxJYBAjkJU"
+
+				},
+				{
+
+					"link":"https://www.youtube.com/embed/i_u0Si86NsU"
+
+				}
+
+			],
+
+			"steps":[
+				{
+					"id":1,
+					"step":"Backup critical files"
+
+				},
+				{
+					"id":2,
+					"step":"Protect email accounts with sender authentication"
+
+				},
+				{
+					"id":3,
+					"step":"Report spam emails"
+				}
+
+			]
+		},
+		{
+			"id":"Mobile Settings",
+			"img":"Images/settings.png",
+			"info":"In general, a smart device has settings for wireless connections, device-related options, such as screen brightness, notification sounds, and date and time, and privacy and security controls, such as location services and screen lock set-up.Additionally, most of the apps that you download to your smartphone or tablet also have settings, which often include notifications, sharing options, and app-specific functions.",
+
+			"ques":[
+				{
+					"que":"What is Google Search ?",
+					"answer":"To find the desired website on Google we perform a Google Search."
+					
+				},
+				{
+					"que":"Can we do a voice search on Google ?",
+					"answer":" Yes, a voice search is possible on Google."
+					
+
+				}
+
+			],
+			"video_links":[
+				{
+					"link":"https://www.youtube.com/embed/gj_1rkFmM"
+
+				}
+
+			],
+
+			"steps":[
+				{
+					"id":1,
+					"step":"Open settings App"
+
+				},
+				{
+					"id":2,
+					"step":"Click on brightness."
+
+				},
+				{
+					"id":3,
+					"step":"Change brightness."
+				}
+
+			]
+		},
+		{
+			"id":"Know Your Device",
+			"img":"Images/smartphone.png",
+			"info":"In general, a smart device has settings for wireless connections, device-related options, such as screen brightness, notification sounds, and date and time, and privacy and security controls, such as location services and screen lock set-up.Additionally, most of the apps that you download to your smartphone or tablet also have settings, which often include notifications, sharing options, and app-specific functions.",
+
+			"ques":[
+				{
+					"que":"What is Google Search ?",
+					"answer":"To find the desired website on Google we perform a Google Search."
+					
+				},
+				{
+					"que":"Can we do a voice search on Google ?",
+					"answer":" Yes, a voice search is possible on Google."
+					
+
+				}
+
+			],
+			"video_links":[
+				{
+					"link":"https://www.youtube.com/embed/gj_1rkFmM"
+
+				}
+
+			],
+
+			"steps":[
+				{
+					"id":1,
+					"step":"Open settings App"
+
+				},
+				{
+					"id":2,
+					"step":"Click on brightness."
+
+				},
+				{
+					"id":3,
+					"step":"Change brightness."
+				}
+
+			]
+		},
+		{
+			"id":"WhatsApp Videocall",
+			"img":"Images/WhatsApp.png",
+			"info":"WhatsApp is a free app for iPhones, Android smartphones, Macs and Windows PCs. It allows you to send messages, pictures, videos and even voice recordings, and to make voice and video calls over the internet for free, rather than paying to do the same using your mobile network.",
+
+			"ques":[
+				{
+					"que":"What is Google Search ?",
+					"answer":"To find the desired website on Google we perform a Google Search."
+					
+				},
+				{
+					"que":"Can we do a voice search on Google ?",
+					"answer":" Yes, a voice search is possible on Google."
+					
+
+				}
+
+			],
+			"video_links":[
+				{
+					"link":"https://www.youtube.com/embed/gj_1rkFmM"
+
+				}
+
+			],
+
+			"steps":[
+					{
+					"id":1,
+					"step":"Click on Whatsapp App icon."
+
+				},
+				{
+					"id":2,
+					"step":"Select the contact from the contacts to send the message"
+
+				},
+				{
+					"id":3,
+					"step":"Click on the videocall icon at top right."
+				},
+				
+				{
+					"id":3,
+					"step":"Congratulations!! You just learnt how to do videocall."
+				}
+
+
+			]
+		}
+
+
+
+	]
+}

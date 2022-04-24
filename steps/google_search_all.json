@@ -1,0 +1,14 @@
+[
+	{
+		"id":"Google search",
+		"steps":[
+			"Click on Chrome app",
+			"Click on input box below Google icon",
+			"Type 'dog' in search",
+			"Congratulations!! You just learnt how to do Google search!.. <br> now click on Images for Image search",
+			"Congratulations!! You just learnt how to do Google Image search"
+		],
+		"err":"Err! "
+
+	}
+]
