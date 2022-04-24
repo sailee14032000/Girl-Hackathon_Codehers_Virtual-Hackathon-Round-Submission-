@@ -1,0 +1,171 @@
+<div id="gmail_screen_1" style='display: block;'>	
+	<div><img src="png/gmail.png"><h6 style="display:inline;margin-left:0.25em;">Set up email</h6></div>
+	<div class="list_email" id="list_email">
+		<div onclick="email_window(2)"><img src="png/google_mail.png" class="img_list_email"><span class="list_element_email">Google</span></div><hr>
+		<div onclick="()"><img src="png/outlook.png" class="img_list_email"><span class="list_element_email">Outlook, Hotmail, and Live</span></div><hr>
+		<div onclick="()"><img src="png/yahoo_mail.png" class="img_list_email"><span class="list_element_email">Yahoo</span></div><hr>
+		<div onclick="()"><img src="png/eoffice.png" class="img_list_email"><span class="list_element_email">Exchange and Office 365</span></div><hr>
+		<div onclick="()"><img src="png/other_email.png" class="img_list_email"><span class="list_element_email">Other</span></div><hr>
+	</div>	
+</div>
+
+<div id="gmail_screen_2">
+	<div id="gmail_google_logo"><img src="png/google_logo.png" id="img_gmail_google_logo"></div>
+	<div id="center">
+		<h6>Sign in</h6>
+		<b>with your Google Account. <span style="color: blue">Learn more</span></b>
+	</div>
+	<input type="" name="" placeholder="Email or phone" class="gmail_input"><br>
+	<p class="forgot_mail">Forgot email?</p>
+	
+	<footer class="gmail_footer">
+		<p class="forgot_mail" onclick="open_option()">Create account</p>
+		<button id="gmail_nextbtn">Next</button>
+	</footer>
+	<div class="select_account_type shadow">
+		<div onclick="email_window(3)">For myself</div>
+		<div>To manage my business</div>
+	</div>
+</div>
+
+<div id="gmail_screen_3" >
+	<div id="gmail_google_logo"><img src="png/google_logo.png" id="img_gmail_google_logo"></div>
+	<div id="center">
+		<h6>Create a Google Account</h6>
+		<b>Enter your name</b>
+	</div>
+	<input type="" name="" placeholder="Name" class="gmail_input" id="gmail_input" onclick="open_searchbar()"><br><br>
+	
+	<footer class="gmail_footer">
+		<button id="gmail_nextbtn" style="margin-left: 75%" onclick="email_window(4)">Next</button>
+	</footer>
+</div>
+
+<div id="gmail_screen_4">
+	<div id="gmail_google_logo"><img src="png/google_logo.png" id="img_gmail_google_logo"></div>
+	<div id="center">
+		<h6>Basic Information</h6>
+		<b>Enter your birthday and gender</b>
+	</div>
+	<div class="gmail_footer">
+		
+
+		<input  type="number" min="1" max="31" placeholder="Day" id="gmail_day" onclick="open_searchbar()" class="gmail_input"  style="width:30%"></input>
+
+		<select placeholder="Month" class="gmail_input" style="width: 35%">
+			<option name="" value="" style="display:none;">Month</option>
+			<option name="January" value="Jan">January</option>
+			<option name="February" value="Feb">February</option>
+			<option name="March" value="Mar">March</option>
+			<option name="April" value="Apr">April</option>
+			<option name="May" value="May">May</option>
+			<option name="June" value="Jun">June</option>
+			<option name="July" value="Jul">July</option>
+			<option name="August" value="Aug">August</option>
+			<option name="September" value="Sep">September</option>
+			<option name="October" value="Oct">October</option>
+			<option name="November" value="Nov">November</option>
+			<option name="December" value="Dec">December</option>
+		</select>
+
+		<input placeholder="Year" id="gmail_year" onclick="open_searchbar()" class="gmail_input" style="width:30%">
+		</input>
+
+
+		
+	</div>
+	<select placeholder="Gender" class="gmail_input">
+		<option name="" value="" style="display:none;">Gender</option>
+		<option name="January" value="Jan">Male</option>
+		<option name="February" value="Feb">Female</option>
+		<option name="March" value="Mar">Prefer not to say</option>
+	</select>
+	<footer class="gmail_footer">
+		<button id="gmail_nextbtn" style="margin-left: 75%" onclick="email_window(5)">Next</button>
+	</footer>
+</div>
+
+<div id="gmail_screen_5">
+	<div id="gmail_google_logo"><img src="png/google_logo.png" id="img_gmail_google_logo"></div>
+	<div id="center">
+		<h6>Choose your Gmail address</h6>
+		<b style="font-size: 15px">Pick a Gmail address or create your own</b>
+	</div>
+	<div class="list_email">
+		<input type="radio" id="email1" name="gmail_add_option" value="email1" onclick="document.getElementById('ownMail').style.display = 'none'">
+		<label for="email1" >random123@gmail.com</label><br><hr>
+		<input type="radio" id="email2" name="gmail_add_option" value="email2" onclick="document.getElementById('ownMail').style.display = 'none'">
+		<label for="email2" >random123@gmail.com</label><br><hr>
+		<input type="radio" id="enter_gmail" name="gmail_add_option" value="new_mail" onclick="document.getElementById('ownMail').style.display = 'block'">
+		<label for="enter_gmail" >Create your own Gmail address</label><br><hr>
+	</div>
+	<div id="ownMail">
+		<div class="new_mail">
+			<div><input type="" name="" placeholder="Create a Gmail address" class="gmail_input" id="gmail_input" onclick="open_searchbar()"></div>
+			<div>@gmail.com</div>
+		</div>
+		<p style="font-size: 10px">You can use letters, numbers, and periods</p>
+	</div>
+	<footer class="gmail_footer">
+		<button id="gmail_nextbtn" style="margin-left: 75%" onclick="email_window(6)">Next</button>
+	</footer>
+</div>
+
+<div id="gmail_screen_6">
+	<div id="gmail_google_logo"><img src="png/google_logo.png" id="img_gmail_google_logo"></div>
+	<div id="center">
+		<h6>Create a strong password</h6>
+		<b style="font-size: 15px">Create a strong password with mixture of letters, numbers and symbols</b>
+	</div>
+	<input type="" name="" placeholder="Password" class="gmail_input"  id="gmail_password" onclick="open_searchbar()"><br>
+	<input type="checkbox" name="" checked><label style="padding: 2%; font-size: 14px;">  Show password</label>
+	<footer class="gmail_footer">
+		<button id="gmail_nextbtn" style="margin-left: 75%" onclick="email_window(7)">Next</button>
+	</footer>
+</div>
+
+<div id="gmail_screen_7">
+	<div id="gmail_google_logo"><img src="png/google_logo.png" id="img_gmail_google_logo"></div>
+	<div id="center">
+		<h6>Add phone number?</h6>
+		<b style="font-size: 15px">Add your phone number to use across Google Services</b>
+	</div>
+	<input type="" name="" placeholder="Phone Number" class="gmail_input" id="gmail_phone" onclick="open_searchbar()"><br>
+		<img src='png/email_seventh_window.png' width="100%"/>
+	<footer class="gmail_footer" style="margin-bottom: 4%">
+		<p id="gmail_nextbtn" style="margin-left: 5%; color: blue; font-weight: bold;" onclick="email_window(8)">Skip</p>
+		<button id="gmail_nextbtn" style="margin-right: 5%" onclick="email_window(8)">Next</button>
+	</footer>
+</div>
+
+<div id="gmail_screen_8">
+	<div id="gmail_google_logo"><img src="png/google_logo.png" id="img_gmail_google_logo"></div>
+	<div id="center">
+		<h6>Review your account info</h6>
+		<b style="font-size: 15px">You can use this Gmail address to sign in later</b>
+	</div>
+		<img src='png/email_eighth_window.png' width="100%"/>
+	<!-- <div class="space1"></div> -->
+	<footer class="gmail_footer" style='margin-top: 15px;'>
+		<button id="gmail_nextbtn" style="margin-left: 75%" onclick="email_window(9)">Next</button>
+	</footer>
+</div>
+
+<div id="gmail_screen_9">
+	<div id="gmail_google_logo"><img src="png/google_logo.png" id="img_gmail_google_logo"></div>
+	<div id="center">
+		<h6>Privacy and Terms</h6>
+		<b style="font-size: 15px">To make a Google Account, you'll need to agree to the Terms and Services below</b>
+	</div>
+		<img src='png/email_ninth_window.png' width="100%"/>
+	<!-- <div class="space1"></div> -->
+	<footer class="gmail_footer" style='margin-top: 10px;'>
+		<button id="gmail_nextbtn" style="margin-left: 75%" onclick="email_window(10)">Next</button>
+	</footer>
+</div>
+
+<div id="gmail_screen_10" style="padding:0 ">
+	
+</div>
+
+<div class="simple-keyboard"></div>

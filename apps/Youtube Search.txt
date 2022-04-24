@@ -1,0 +1,62 @@
+<div id="youtube">
+					
+					<div id="youtube_bar">
+						<div id="youtube_logo">
+							<img src="png/youtube.png">
+						</div>
+						<div id="youtube_home_menu">
+							
+								<div id="youtube_notifications"><i class="fi fi-rr-bell"></i></div>
+								<div id="youtube_search"><i class="fi fi-rr-search" onclick="open_searchbar()"></i></div>
+								
+								<div id="youtube_user"><i class="fi fi-rr-user"></i></div>
+							
+
+							
+
+						</div>
+
+						<div id="youtube_search_menu">
+								<div id="youtube_search"><i class="fi fi-rr-search" onclick="open_searchbar()"></i><input id="input_"/></div>
+							</div>
+					</div>
+
+					<div class="simple-keyboard"></div>
+
+					<div id="youtube_mainframe">
+						<div class="youtube_video">
+							<img class="yt_video_img" src="png/yt_bg1.jpeg">
+							<div class="yt_video_details">
+								<img src="" class="">
+								<div class="yt_video_title">Youtube Tutorials</div>
+								<div class="yt_video_info">
+									<span class="yt_user_logo"><i  style="margin-right:1%;" class="fi fi-rr-portrait"></i></span>
+									<span>11M views</span>
+									<span>1 year ago</span>
+								</div>
+							</div>
+						</div>
+						<div class="youtube_video">
+							<img class="yt_video_img" src="png/yt_bg2.jpeg">
+							<div  class="yt_video_details">
+								<img src="">
+								<div class="yt_video_title">Lorem Epsum</div>
+								<div class="yt_video_info">
+									<span class="yt_user_logo"><i style="margin-right:1%;" class="fi fi-rr-portrait"></i></span>
+									<span>10M views</span>
+									<span>1 month ago</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="youtube_footer">
+						<div id="youtube_home"></div>
+						<div id="youtube_shorts"></div>
+						<div id="youtube_add"></div>
+						<div id="youtube_subscriptions"></div>
+						<div id="youtube_library"></div>
+
+					</div>
+				</div>
+
+

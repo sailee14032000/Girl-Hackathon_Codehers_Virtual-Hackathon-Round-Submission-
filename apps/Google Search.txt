@@ -1,0 +1,50 @@
+<div id="google">
+	<div class="google_header">
+		<div id="home_button" class="google_header_logo"><img src="png/google_home.png"></div>
+		<div id="setting_button" class="google_header_logo"><img src="png/google_setting.png"></div>
+	</div>
+	<div id="google_main">
+		<div><img src="png/google_logo.png" id="google_logo_img"></div>
+		<div class="google-search">
+			<div><input type="text" name="" id="google_search_input" placeholder="Search" onclick="open_searchbar()"></div>
+			<div><img src="png/google_mic.png" class="google_search_icons"><img src="png/google_photo-camera.png" class="google_search_icons"></div>
+		</div>
+	</div>
+	<div class="simple-keyboard"></div>
+</div>
+
+<div id="google_second_window">
+	<div class="google_header" id="second_window_topnav">
+		<div id="home_button" class="google_header_logo"><img src="png/google_home.png"></div>
+		<div class="google-search">
+			<div><img src="png/google_lock.png" class="top_nav_lock"></div>
+			<div><input type="text" name="" id="google_nav_input" placeholder="google.com/search?q=dog&" disabled="disabled"></div>
+		</div>
+		<div id="setting_button" class="google_header_logo"><img src="png/google_setting.png"></div>
+	</div>
+	<div class="google_header">
+		<div id="menu_button" class="google_header_logo"><img src="png/menu.png"></div>
+		<div class="google_header_logo"><img src="png/google_logo.png" id="google_logo_img_second"></div>
+		<div id="account" class="google_header_logo"><img src="png/google_user.png"></div>
+	</div>
+	<div id="google_main">
+		<div class="google-search" id="second_main">
+			<div><img src="png/google_search.png" class="top_nav_lock"></div>
+			<div><input type="text" name="" id="google_main_input" placeholder="dog" disabled="disabled"></div>
+			<div><img src="png/google_mic.png" id="google_mic"></div>
+		</div>
+		<div class="google_header" id="scroll">
+			<div onclick="changeBG()">All</div>
+			<div onclick="changeBG('img')">Images</div>
+			<div>Shopping</div>
+			<div>Videos</div>
+			<div>News</div>
+			<div>Maps</div>
+			<div>Books</div>
+			<div>Flights</div>
+		</div>
+		<div id="main_search_result">
+			
+		</div>
+	</div>
+</div>

@@ -1,0 +1,80 @@
+<div id="settings_screen_1">
+	<div class="container_settings">
+	<h5 style="text-align: center;">Settings</h5>
+	
+		<table style="width:100%" id="settings_table">
+		  <tr>
+		    <th><img class="settings_img" src="png/settings/airplane.png"></th>
+		    <td><b style="font-size:14px;">Airplane Mode</b></td>
+		    <td>></td>
+		  </tr>
+		  <tr>
+		    <th><img class="settings_img" src="png/settings/globe.png"></th>
+		    <td><b style="font-size:14px;">Dual SIM & Cellular</b></td>
+		    <td>></td>
+		  </tr>
+		  <tr>
+		    <th><img class="settings_img" src="png/settings/wifi.png"></th>
+		    <td><b style="font-size:14px;">Wifi</b></td>
+		    <td>></td>
+		  </tr>
+		  <tr>
+		    <th><img class="settings_img" src="png/settings/bluetooth.png"></th>
+		    <td><b style="font-size:14px;">Bluetooth</b></td>
+		    <td>></td>
+		  </tr>
+		  <tr onclick="settings_window(3)">
+		    <th><img class="settings_img" src="png/settings/mobile-data.png"></th>
+		    <td><b style="font-size:14px;">Mobile Data</b></td>
+		    <td>></td>
+		  </tr>
+		  <tr>
+		    <th><img class="settings_img" src="png/settings/bell.png"></th>
+		    <td><b style="font-size:14px;">Notification & Status bar</b></td>
+		    <td>></td>
+		  </tr>
+		  <tr onclick="settings_window(2)">
+		    <th><img class="settings_img" src="png/settings/brightness.png"></th>
+		    <td><b style="font-size:14px;">Display & Brightness</b></td>
+		    <td>></td>
+		  </tr>
+		  <tr>
+		    <th><img class="settings_img" src="png/settings/volume.png"></th>
+		    <td><b style="font-size:14px;">Sound & Vibration</b></td>
+		    <td>></td>
+		  </tr>
+		</table>
+	</div>
+</div>
+
+<div id="settings_screen_2">
+	<div onclick="settings_window(1); document.getElementById('settings_screen_2').style.display = 'none';" id="back_button"><b><</b></div>
+	<div id="display">
+		<input type="range" id="brightness-range" min="10" max="100" value="100" onchange="brightness(this)">
+	</div>
+</div>
+
+<div id="settings_screen_3">
+	<div id="notifications">
+		<table>
+			<tr>
+			    <th><img src="png/002-whatsapp.png" width="50%"></th>
+			    <td><b style="font-size:14px;">New Message</b></td>
+			</tr>
+		</table>
+	</div>
+	<h5 style="text-align: center;padding: 3%">Mobile Data</h5>
+	<div id="data_top"></div>
+	<table>
+		<tr>
+			<th style="width: 90%; padding: 5%;font-size: 13px;font-weight:bold">Mobile Data</th>
+			<th>
+				<label class="switch">
+				    <input type="checkbox" id="mobData" onchange="show_notifications()">
+				    <span class="slider round"></span>
+			    </label>
+			</th>
+		</tr>
+	</table>
+	<div id="data_bottom"></div>
+</div>
