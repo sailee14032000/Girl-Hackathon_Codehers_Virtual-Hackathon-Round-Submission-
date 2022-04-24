@@ -1,0 +1,122 @@
+{
+    "ChptData": [
+
+    {
+        "id": "<i class='fi fi-rr-smartphone'></i>  Knowing Your Device",
+        "info": "In this course you will learn about how to use a touchscreen on a mobile phone or tablet computer. The course will cover basic and more advanced touchscreen controls. You will also find out about getting the most out of your touchscreen smartphone or tablet.More and more phones and computers are being made with a screen that you can touch. This makes understanding how to use a touchscreen very important. Using a touchscreen on your mobile phone, smartphone or tablet computer is often easier than using a keyboard and mouse.",
+        "chpt":[ 
+            {
+                "link":"",
+                "name":"Know Your Device",
+                "app":"Phone"
+
+            },
+            {
+                "link":"",
+                "name":"Mobile Settings",
+                "app":"Mobile Settings"
+
+
+            }
+        ]
+    },
+    {
+        "id": "<i class='fi fi-rr-globe'></i>   Online Basics",
+        "info": "In this course you will learn all about browsing the internet. The course covers using a web browser to view websites. The internet is a giant library of information. Knowing how to access this information can make a your life a lot easier. For example, you can use the internet to keep in touch with friends and family, read the news, follow your hobbies, watch your favourite TV programmes, shop, compare prices and pay bills.",
+        "chpt":[ 
+            {
+                "link":"",
+                "name":"Google Search",
+                "app":"Chrome"
+
+
+            },
+            {
+                "link":"",
+                "name":"Google Image Search",
+                "app":"Chrome"
+
+
+            }
+        ]
+    },
+    {
+        "id": "<i class='fi fi-brands-google'></i>  Internet Basics",
+        "info": "In this course you will learn all about using different applications. The course covers using basics of different applications. This subject is designed to make sure you’re confident with everything you might need to do on the internet, including Youtube Search and other interesting applications.",
+        "chpt":[ 
+            
+            {
+                "link":"",
+                "name":"Youtube Search",
+                "app":"Youtube"
+
+            },
+            {
+                "link":"",
+                "name":"Play Store Search",
+                "app":"Play Store"
+
+            },
+            {
+                "link":"",
+                "name":"Gmail",
+                "app":"Gmail"
+
+            }
+            
+            
+            
+
+        ]
+    },
+    {
+        "id":"<i class='fi fi-rr-users'></i>  Social Networking Apps",
+        "info":"Social media creates a sense of belonging to a greater community among senior citizens. It allows seniors to be part of many online communities and make them feel connected on a large scale. Seniors can use social media to chat, make audio/video calls, and share photos. In this turorial you will learn how to use popular social media applications.",
+        "chpt":[ 
+            {
+                "link":"",
+                "name":"WhatsApp",
+                "app":"WhatsApp"
+
+            },
+            {
+                "link":"",
+                "name":"Facebook",
+                "app":"Facebook"
+
+
+            },
+            
+            {
+                "link":"",
+                "name":"WhatsApp Videocall",
+                "app":"WhatsApp"
+
+            }
+        ]
+
+    },
+    {
+        "id": "<i class='fi fi-rr-shield-check'></i>  Online Safety",
+        "info": "In this course you will learn how to use the internet safely. When you’re using the internet, there are lots of ways of doing the things that you need to, or that interest you. It’s important to do these things safely. You’ll also find out how to spot scams and keep safe on email and SMS. Feeling confident when browsing the internet can help you enjoy being online more. The internet is great for shopping, banking and keeping in touch, but you often hear stories about the dangers of being online. Fortunately, if you follow some simple steps you can easily protect yourself.",
+        "chpt":[ 
+            {
+                "link":"",
+                "name":"Password safety and protection",
+                "app":"Quiz"
+
+            },
+            
+            {
+                "link":"",
+                "name":"Email safety",
+                "app":"Quiz"
+
+
+            }
+        ]
+    }      
+
+
+    ]   
+}

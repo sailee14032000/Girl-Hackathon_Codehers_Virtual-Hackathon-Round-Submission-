@@ -1,0 +1,16 @@
+[
+	{
+		"id":"Settings",
+		"steps":[
+			"Click on Settings app",
+			"Click on Brightness logo",
+			"Scroll the bar to increase and reduce Brightness",
+			"Congratulations!! You have learned how to change the brightness of your phone \n Now click on the back button on top left side of your screen",
+			"Click on Mobile Data logo",
+			"Click on the bar to switch on your data",
+			"Congratulations!! You have learned how to switch on data of your phone \n Look you got a new notification"
+		],
+		"err":"Err! "
+
+	}
+]
