@@ -1,0 +1,14 @@
+[
+	{
+		"id":"Watch video",
+		"steps":[
+			"Click on Youtube app",
+			"Click on search<i class='fi fi-rr-search'></i> button",
+			"Type 'cat' in search",
+			"Congratulations!! You just learnt how to do Youtube search!"
+
+		],
+		"err":"Err!"
+
+	}
+]
