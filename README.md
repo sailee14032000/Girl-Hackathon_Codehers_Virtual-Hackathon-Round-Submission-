@@ -14,5 +14,7 @@ DigiBa, helps elderly in learning new technologies with the help of simulation o
 [Sailee Pravin Salgaonkar](https://github.com/sailee14032000)
 <br>
 [Jahnvi Rajen Thakkar](https://github.com/jahnvi480)
+<br>
+Vansika Mattoo
 
 
