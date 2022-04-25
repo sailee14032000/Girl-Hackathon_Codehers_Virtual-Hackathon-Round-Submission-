@@ -8,11 +8,11 @@ have the potential to improve older adults' quality of life, but they often face
 technologies and need more training.
 
 ## 💡Solution deep-dive :
-DigiBa, helps elderly in learning new technologies with the help of simulation of virtual apps on virtual smartphone device.
+DigiBa, helps elderly in learning new technologies with the help of simulation of virtual apps on virtual smartphone devices.
 For example: The below diagram represents the simulation of how to do google search:
 <p align="center"><img src="https://github.com/sailee14032000/Girl-Hackathon_Codehers_Virtual-Hackathon-Round-Submission-/blob/main/simulation.gif"/></p><br>
 
-DigiBa covers the key chapters of digital literacy. The key chapters of digital literacy are: Device Basics, Online Basics, Internet Basics, Social Networking Apps and Online safety. The various chapters guides user through video tutorials, explanation and interactive simulation with live steps to carry out a task. DigiBa is available in various languages to provide multi-linhgual support. Quiz and games section helps them to test thier digital literacy knowledge.<br>
+DigiBa covers the key chapters of digital literacy. The key chapters of digital literacy are: Device Basics, Online Basics, Internet Basics, Social Networking Apps and Online safety. The various chapters guide users through video tutorials, explanations and interactive simulation with live steps to carry out a task. DigiBa is available in various languages to provide multilingual support. Quiz and games section helps them to test their digital literacy knowledge.<br>
 <p align="center"><img src="https://github.com/sailee14032000/Girl-Hackathon_Codehers_Virtual-Hackathon-Round-Submission-/blob/main/digibaimg.png"/></p><br>
 
 ## 👥Contributors:
