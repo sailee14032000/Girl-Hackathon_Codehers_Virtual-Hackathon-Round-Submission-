@@ -15,6 +15,6 @@ DigiBa, helps elderly in learning new technologies with the help of simulation o
 <br>
 [Jahnvi Rajen Thakkar](https://github.com/jahnvi480)
 <br>
-Vansika Mattoo
+Vanshika Surinder Mattoo
 
 
