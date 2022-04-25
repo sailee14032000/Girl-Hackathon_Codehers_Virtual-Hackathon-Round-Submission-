@@ -12,6 +12,7 @@ DigiBa, helps elderly in learning new technologies with the help of simulation o
 <img src="https://github.com/sailee14032000/Girl-Hackathon_Codehers_Virtual-Hackathon-Round-Submission-/blob/main/simulation.gif"/><br>
 ## Contributors:
 [Sailee Pravin Salgaonkar](https://github.com/sailee14032000)
+<br>
 [Jahnvi Rajen Thakkar](https://github.com/jahnvi480)
 
 
