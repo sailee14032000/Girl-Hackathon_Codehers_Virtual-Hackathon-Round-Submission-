@@ -358,7 +358,7 @@ function googleTranslateElementInit() {
 
 	function nextquizque(){
 
-		readTextFile("/digiba_Web/steps/quiz.json", function(text){
+		readTextFile("steps/quiz.json", function(text){
 		    var data = JSON.parse(text);
 		    for (var i=0;i<=data['quiz_chpt'].length;i++)
 		    {
